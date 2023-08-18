@@ -38,6 +38,7 @@
      font-size: 1.4rem;
      color: rgb(240, 240, 240);
 }
+
 #navbar .navbar2 li :hover {
      background: linear-gradient(57deg, #00dbe0, #fc00ff);
      -webkit-text-fill-color: transparent;
@@ -49,11 +50,16 @@
      font-size: 1.4rem;
 }
 
-.nav3 i {
+.nav3 li a {
      font-size: 1.3rem;
      color: rgb(240, 240, 240);
-     padding: 0 10px;
+     
+     border: 1px solid white;
+     padding: 4px 6px;
+     margin: 3px 6px;
+
 }
+
 #navbar .nav3 li :hover {
      background: linear-gradient(57deg, #001ae0, #fc00ff);
      -webkit-text-fill-color: transparent;
@@ -133,17 +139,19 @@ a {
           width: 100%;
           display: flex;
           justify-content: center;
-          margin-right: 3rem;
-          margin-top: 550px;
+          margin-right: 4.3rem;
+          margin-top: 650px;
      }
 
-     #navbar .nav3 i {
-          padding: 6px;
+     #navbar .nav3 li a {
+          border: 1px solid white;
+          padding: 4px 6px;
+          margin: 3px 6px;
      }
 }
+
 @media (max-width:750px) {
-     #logo{
+     #logo {
           margin-left: .9rem;
      }
 }
-
