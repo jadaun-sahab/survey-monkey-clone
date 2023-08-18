@@ -19,13 +19,13 @@ function App() {
       <div className='app'>
           <Navbar/>
             <Routes>
-            <Route exact path="/" element={<Protected Component={Home}/>}></Route>
+              <Route exact path="/" element={<Protected Component={Home}/>}></Route>
               <Route exact path="/login" element={<Login/>}></Route>
-              <Route exact path="/Product" element={<Product/>}></Route>
-              <Route exact path="/Pricing" element={<Pricing/>}></Route>
-              <Route exact path="/Resources" element={<Resources/>}></Route>
-              <Route exact path="/Enterprise" element={<Enterprise/>}></Route>
-              <Route exact path="/Template" element={<Template/>}></Route>
+              <Route exact path="/Product" element={<Protected Component={Product}/>}></Route>
+              <Route exact path="/Pricing" element={<Protected Component={Pricing}/>}></Route>
+              <Route exact path="/Resources" element={<Protected Component={Resources}/>}></Route>
+              <Route exact path="/Enterprise" element={<Protected Component={Enterprise}/>}></Route>
+              <Route exact path="/Template" element={<Protected Component={Template}/>}></Route>
             </Routes>
       </div>
     </Router>
