@@ -26,12 +26,13 @@ export default class Navbar extends Component {
       <div id="navbar">
      
           <div className='navbar'>
-               <div id="logo">NewsMonkey</div>
+               <div id="logo">SURVEY-MONKEY</div>
                <div className={`navbar2 ${isActive ? 'active' : ''}`}>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/">Market</Link></li>
-                    <li><Link to="/">Why Choose us</Link></li>
-                    <li><Link to="/">Join us</Link></li>
+                    <li><Link to="/">PRODUCT</Link></li>
+                    <li><Link to="/">TEMPLATE</Link></li>
+                    <li><Link to="/">PRICING</Link></li>
+                    <li><Link to="/">ENTERPRISE</Link></li>
+                    <li><Link to="/">RESOURCES</Link></li>
                </div>
                <div className={`nav3 ${isActive ? 'active' : ''}`}>
                     <li><Link to="/"><i className="fa-brands fa-twitter"></i></Link></li>
