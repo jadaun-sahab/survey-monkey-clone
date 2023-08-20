@@ -1,0 +1,12 @@
+.home{
+     padding-top: 80px;
+     background-color: #f7f7f7;
+}
+.homesection1{
+     display: flex;
+     width: 85%;
+     margin: 0 auto;
+}
+.homebtn{
+padding: 10px;
+}

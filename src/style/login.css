@@ -25,7 +25,7 @@
      color: grey;
      font-weight: 400;
      display: flex;
-     justify-content: end;
+     justify-content: flex-end;
 }
 
 .loginContainer h1 {
@@ -41,9 +41,11 @@
      margin:  10px 0 20px 0;
 }
 .loginContainer input {
+     border: none;
      width: 95%;
      padding: 10px;
      font-size: 1.1rem;
+     border: 1px solid grey;
 }
 
 .loginContainer button {
@@ -54,4 +56,5 @@
      color: white;
      font-size: 19px;
      border: none;
+     cursor: pointer;
 }

@@ -15,6 +15,7 @@ export default function Login() {
     }
   });
   return (
+    <>
     <div className="login">
       <h1>SurveyMonkey</h1>
       <div className="loginContainer">
@@ -33,5 +34,6 @@ export default function Login() {
         </div>
       </div>
     </div>
+    </>
   );
 }
