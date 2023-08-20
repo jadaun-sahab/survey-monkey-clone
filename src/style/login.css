@@ -1,7 +1,57 @@
-.login{
+.login {
      padding-top: 120px;
      background-color: #e8e9e8;
+     height: 586px;
 }
-.login >h1{
-     color: rgb(33, 202, 109);
+
+.login>h1 {
+     text-align: center;
+     color: rgb(0, 192, 111);
+     padding-bottom: 30px;
+}
+
+.loginContainer {
+     background-color: #ffffff;
+     width: 500px;
+     padding: 20px 20px 30px 20px;
+     margin: 1em auto;
+     border-radius: 10px;
+     box-shadow: 2px 2px 10px rgb(207, 207, 207),-2px -2px 10px rgb(207, 207, 207);
+     display: block;
+}
+
+.loginContainer>h3 {
+     font-size: 1rem;
+     color: grey;
+     font-weight: 400;
+     display: flex;
+     justify-content: end;
+}
+
+.loginContainer h1 {
+     text-align: center;
+     font-weight: 400;
+     padding: 20px 0;
+}
+
+.loginContainer span a{
+     color: rgb(3, 166, 158);
+}
+.loginContainer input{
+     margin:  10px 0 20px 0;
+}
+.loginContainer input {
+     width: 95%;
+     padding: 10px;
+     font-size: 1.1rem;
+}
+
+.loginContainer button {
+     width: 100%;
+     padding: 10px;
+     margin: 20px 0;
+     background-color: rgb(0,191,111);
+     color: white;
+     font-size: 19px;
+     border: none;
 }
