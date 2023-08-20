@@ -15,10 +15,14 @@ export default function Login() {
      }
 })
   return (
-    <div>
+    <div className='login'>
+      <h1>SurveyMonkey</h1>
+      <form action="/">
+
       <input type="text" name="username" id="username" />
       <input type="password" name="password" id="password" />
       <button onClick={login}>Login</button>
+      </form>
     </div>
   );
 }

@@ -1,6 +1,7 @@
-input,button{
-     /* padding: 80px; */
-     text-align: center;
-     color: black;
-     margin-top: 90px;
+.login{
+     padding-top: 120px;
+     background-color: #e8e9e8;
+}
+.login >h1{
+     color: rgb(33, 202, 109);
 }

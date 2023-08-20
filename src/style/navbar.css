@@ -4,18 +4,19 @@
 }
 
 #navbar {
-     background-color: #05052b;
+     background-color: #ffffff;
      width: 100%;
      height: 80px;
      display: flex;
      align-items: center;
      position: fixed;
      z-index: 10;
+     box-shadow: 2px 2px 2px soild grey;
 }
 
 
 #navbar .fabars {
-     color: white;
+     color: rgb(0, 0, 0);
      font-size: 1.6rem;
      margin-right: 12px;
      display: none;
@@ -36,7 +37,7 @@
      font-weight: 600;
      padding: 10px;
      font-size: 1.4rem;
-     color: rgb(240, 240, 240);
+     color: rgb(0, 0, 0);
 }
 
 #navbar .navbar2 li :hover {
@@ -46,13 +47,13 @@
 }
 
 #logo {
-     color: rgb(240, 240, 240);
+     color: rgb(8, 8, 8);
      font-size: 1.4rem;
 }
 
 .nav3 li a {
      font-size: 1.3rem;
-     color: rgb(240, 240, 240);
+     color: rgb(0, 0, 0);
      
      border: 1px solid white;
      padding: 4px 6px;
