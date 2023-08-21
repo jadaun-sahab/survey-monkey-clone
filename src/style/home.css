@@ -166,26 +166,45 @@
      display: flex;
 }
 
-.homesection5child {
+.homesection5child1 {
      width: 30%;
      display: block;
      margin: 0 auto;
 }
-.homesection5child h1{
+
+.homesection5child1 h1 {
      font-weight: 600;
 }
-.homesection5child p{
-      margin: 20px 0;
-      font-size: 1.2rem;
+
+.homesection5child1 p {
+     margin: 20px 0;
+     font-size: 1.2rem;
 }
-.homesection5child li {
+
+.homesection5child1>div {
+     display: flex;
+}
+
+.homesection5child1>div li:nth-child(1) {
+     list-style: disc;
+     margin-left: 6px;
+}
+
+.homesection5child1 li {
      color: #484747;
      font-size: 1.2rem;
-     list-style: disc;
      padding: 10px 0;
 }
 
+.homesection5child2 {
+     width: 50%;
+     background-color: #ededed;
+}
 
+.homesection5child2>div {
+     display: flex;
+     flex-direction: column;
+}
 
 
 

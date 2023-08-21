@@ -111,15 +111,51 @@ export default function Home() {
       </div>
 
       <div className="homesection5">
-        <div className="homesection5child">
+        <div className="homesection5child1">
           <h1>Contact us today</h1>
           <p>Learn more about SurveyMonkey Enterprise and schedule a demo.</p>
-          <li>Manage multiple users and gain visibility into all survey data collected across your organization with admin controls and dashboards.</li>
-          <li>Ensure confidential data is protected with enhanced security including encryption, SSO, and features that help you remain compliant with HIPAA and GDPR.</li>
-          <li>Make feedback automated and actionable by connecting to key business systems using APIs and powerful integrations, including Salesforce, Marketo, Tableau, and more.</li>
+          <div>
+            <li></li>
+            <li>Manage multiple users and gain visibility into all survey data collected across your organization with admin controls and dashboards.</li>
+          </div>
+          <div>
+            <li></li>
+            <li>Ensure confidential data is protected with enhanced security including encryption, SSO, and features that help you remain compliant with HIPAA and GDPR.</li>
+          </div>
+          <div>
+            <li></li>
+            <li>Make feedback automated and actionable by connecting to key business systems using APIs and powerful integrations, including Salesforce, Marketo, Tableau, and more.</li>
+          </div>
         </div> 
-        <div className="homesection5child">
-          
+        <div className="homesection5child2">
+        <div>
+            First name*
+            <input type="text" name="" id="" />
+          </div>
+          <div>
+            Last name*
+            <input type="text" name="" id="" />
+          </div>
+          <div>
+            Business email *
+            <input type="text" name="" id="" />
+          </div>
+          <div>
+            Job title *
+            <input type="text" name="" id="" />
+          </div>
+          <div>
+            Company *
+            <input type="text" name="" id="" />
+          </div>
+          <div>
+            Phone number *
+            <input type="text" name="" id="" />
+          </div>
+          <div>
+            Country*
+            <input type="text" name="" id="" />
+          </div>
         </div>
       </div>
     </div>
