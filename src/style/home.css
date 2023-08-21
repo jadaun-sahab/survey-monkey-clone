@@ -44,7 +44,7 @@
 }
 
 .homebtn2 {
-     margin-left: 1rem;
+     margin-left: 1.6rem;
      border: 1px solid black;
      background-color: #fff;
 }
@@ -372,16 +372,45 @@
 .homesection10 button{
      color: white;
      background-color:#47bb71;
-     padding: 10px 20px;
+     padding: 17px 42px;
+     border-radius: 6px;
+     margin-top: 2rem;
      border: none;
 }
 
+ .homesection11child1{
+     width: 85%;
+     margin: 2em auto;
+     display: flex;
+}
 
+.homesection11child1 >div:nth-child(1){
+     margin-right: 8em;
+}
 
+.homesection11child1 >div:nth-child(2){
+   display: flex;
+   flex-wrap: wrap;
+}
 
+.homesection11child1 >div{
+     margin-right: 2em;
+     display: flex;
+} 
 
+.homesection11child1 >div li a{
+     margin-right: 9px; 
+     color: #615f5f;
+}
 
+.spacing{
+     width: 132px;
+}
 
+footer{
+      text-align: center;
+     margin: 10px;
+}
 
 
 

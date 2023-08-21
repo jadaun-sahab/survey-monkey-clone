@@ -292,11 +292,156 @@ export default function Home() {
 
       {/* --------------------------------------section10 starts----------------------------------------- */}
 
+
       <div className="homesection10">
         <h1>Aren't you just a little curious?</h1>
         <button>Get started</button>
       </div>
 
+
+      {/* --------------------------------------section11 starts----------------------------------------- */}
+
+
+      <div className="homesection11">
+        <div className="homesection11child1">
+          <div>
+          Community:
+          </div>
+          <div>
+            <li><Link to="/">Developers</Link></li>
+            <li><Link to="/">Facebook</Link></li>
+            <li><Link to="/">Twitter</Link></li>
+            <li><Link to="/">Linkedin</Link></li>
+            <li><Link to="/">Our Blog </Link></li>
+            <li><Link to="/">Instagram</Link></li>
+            <li><Link to="/">Youtube</Link></li>
+          </div>
+        </div>
+
+        <div className="homesection11child1">
+          <div>
+          About Us:&nbsp;&nbsp;&nbsp;&nbsp;
+          </div>
+          <div>
+            <li><Link to="/">Leadership Team</Link></li>
+            <li><Link to="/">App Directory</Link></li>
+            <li><Link to="/">Newsroom</Link></li>
+            <li><Link to="/">Office Locations</Link></li>
+            <li><Link to="/">Imprint</Link></li>
+            <li><Link to="/">Careers</Link></li>
+            <li><Link to="/">Sitemap</Link></li>
+            <li><Link to="/">Help</Link></li>
+            <li><Link to="/">Log In</Link></li>
+            <li><Link to="/">Sign Up</Link></li>
+          </div>
+        </div>
+
+        <div className="homesection11child1">
+          <div>
+          Policies:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </div>
+          <div>
+            <li><Link to="/">Leadership Team</Link></li>
+            <li><Link to="/">App Directory</Link></li>
+            <li><Link to="/">Newsroom</Link></li>
+            <li><Link to="/">Office Locations</Link></li>
+            <li><Link to="/">Imprint</Link></li>
+            <li><Link to="/">Careers</Link></li>
+            <li><Link to="/">Sitemap</Link></li>
+            <li><Link to="/">Help</Link></li>
+            <li><Link to="/">Log In</Link></li>
+            <li><Link to="/">Sign Up</Link></li>
+            <li><Link to="/">Leadership Team</Link></li>
+            <li><Link to="/">App Directory</Link></li>
+            <li><Link to="/">Newsroom</Link></li>
+            <li><Link to="/">Office Locations</Link></li>
+            <li><Link to="/">Imprint</Link></li>
+            <li><Link to="/">Careers</Link></li>
+          </div>
+        </div>
+
+        <div className="homesection11child1">
+          <div>
+          Use Cases:&nbsp;&nbsp;&nbsp;
+          </div>
+          <div>
+            <li><Link to="/">Leadership Team</Link></li>
+            <li><Link to="/">App Directory</Link></li>
+            <li><Link to="/">Newsroom</Link></li>
+            <li><Link to="/">Office Locations</Link></li>
+            <li><Link to="/">Imprint</Link></li>
+            <li><Link to="/">Careers</Link></li>
+            <li><Link to="/">Sitemap</Link></li>
+            <li><Link to="/">Help</Link></li>
+            <li><Link to="/">Log In</Link></li>
+            <li><Link to="/">Sign Up</Link></li>
+            <li><Link to="/">Help</Link></li>
+            <li><Link to="/">Log In</Link></li>
+            <li><Link to="/">Sign Up</Link></li>
+            
+          </div>
+        </div>
+
+        <div className="homesection11child1">
+          <div className="spacing">
+          
+          </div>
+          <div>
+            <li><Link to="/">Leadership Team</Link></li>
+            <li><Link to="/">App Directory</Link></li>
+            <li><Link to="/">Newsroom</Link></li>
+            <li><Link to="/">Office Locations</Link></li>
+            <li><Link to="/">Imprint</Link></li>
+            <li><Link to="/">Careers</Link></li>
+            <li><Link to="/">Sitemap</Link></li>
+            <li><Link to="/">Help</Link></li>
+            <li><Link to="/">Log In</Link></li>
+            <li><Link to="/">Sign Up</Link></li>
+            <li><Link to="/">Leadership Team</Link></li>
+            <li><Link to="/">App Directory</Link></li>
+            <li><Link to="/">Newsroom</Link></li>
+            <li><Link to="/">Office Locations</Link></li>
+            <li><Link to="/">Imprint</Link></li>
+            <li><Link to="/">Careers</Link></li>
+            <li><Link to="/">Sitemap</Link></li>
+            <li><Link to="/">Help</Link></li>
+            <li><Link to="/">Log In</Link></li>
+            <li><Link to="/">Sign Up</Link></li>
+          </div>
+        </div>
+
+        <div className="homesection11child1">
+          <div className="spacing">
+           
+          </div>
+          <div>
+            <li><Link to="/">Leadership Team</Link></li>
+            <li><Link to="/">App Directory</Link></li>
+            <li><Link to="/">Newsroom</Link></li>
+            <li><Link to="/">Office Locations</Link></li>
+            <li><Link to="/">Imprint</Link></li>
+            <li><Link to="/">Careers</Link></li>
+            <li><Link to="/">Sitemap</Link></li>
+            <li><Link to="/">Help</Link></li>
+            <li><Link to="/">Log In</Link></li>
+            <li><Link to="/">Sign Up</Link></li>
+            <li><Link to="/">Leadership Team</Link></li>
+            <li><Link to="/">App Directory</Link></li>
+            <li><Link to="/">Newsroom</Link></li>
+            <li><Link to="/">Office Locations</Link></li>
+            <li><Link to="/">Imprint</Link></li>
+            <li><Link to="/">Careers</Link></li>
+            <li><Link to="/">Sitemap</Link></li>
+            <li><Link to="/">Help</Link></li>
+            <li><Link to="/">Log In</Link></li>
+            <li><Link to="/">Sign Up</Link></li>
+          </div>
+        </div>
+ <hr style={{ width: "85%", margin:"2rem auto 0 auto" }}/>
+      </div>
+
+      {/* --------------------------------------section11 ends----------------------------------------- */}
+<footer>Copyright © 1999-2023 SurveyMonkey</footer>
     </div>
   );
 }
