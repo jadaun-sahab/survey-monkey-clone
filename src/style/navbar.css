@@ -41,12 +41,10 @@
 }
 
 #navbar .navbar2 li :hover {
-     background: linear-gradient(57deg, #00dbe0, #fc00ff);
-     -webkit-text-fill-color: transparent;
-     -webkit-background-clip: text;
+     color: rgb(0,191,111);
 }
 
-#logo a{
+#logo a {
      color: rgb(8, 8, 8);
      font-size: 1.4rem;
 }
@@ -57,10 +55,12 @@
      margin: 3px 6px;
 
 }
-#navbar .nav3 li:nth-child(2){
- font-size: 1.3rem;
+
+#navbar .nav3 li:nth-child(2) {
+     font-size: 1.3rem;
 }
-#navbar .nav3 li:nth-child(2){
+
+#navbar .nav3 li:nth-child(2) {
      background-color: #ffbc04;
      color: white;
      font-size: 1rem;
@@ -70,7 +70,7 @@
      border-radius: 4px;
 }
 
- 
+
 li {
      list-style: none;
 }
@@ -104,7 +104,8 @@ a {
           display: block;
           z-index: 9;
      }
-     #navbar .fa-x{
+
+     #navbar .fa-x {
           color: #ffffff;
      }
 
@@ -119,7 +120,7 @@ a {
           left: 0;
           top: 0;
           padding-top: 70px;
-          padding-bottom: 90px;
+          padding-bottom: 130px;
      }
 
      #navbar .navbar2 {
@@ -138,7 +139,8 @@ a {
           color: #ffffff;
           padding: .5rem 1rem;
      }
-     #navbar .nav3 li:nth-child(2){
+
+     #navbar .nav3 li:nth-child(2) {
           background-color: #ffbc0400;
           color: white;
           font-size: 1rem;
@@ -147,6 +149,7 @@ a {
           font-weight: 600;
           border-radius: 4px;
      }
+
      #navbar .nav3 {
           display: none;
      }
@@ -155,12 +158,13 @@ a {
           z-index: 3;
           width: 100%;
           display: flex;
+          text-align: center;
           justify-content: center;
           margin-right: 4.3rem;
           margin-top: 650px;
      }
 
-     #navbar .nav3 li a { 
+     #navbar .nav3 li a {
           color: white;
           padding: 4px 6px;
           margin: 3px 6px;
@@ -172,8 +176,12 @@ a {
           margin-left: .9rem;
      }
 }
+
 @media (max-width:500px) {
      #navbar .nav3.active {
-       
+          /* display: flex;
+          justify-content: flex-start;
+          margin: 0;
+          margin-top: 650px; */
      }
 }

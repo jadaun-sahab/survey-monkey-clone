@@ -9,9 +9,6 @@ import Login from './Components/Login';
 import Protected from './Components/Protected';
 import Home from './Components/Home';
 import Enterprise from './Components/Enterprise';
-import Resources from './Components/Resources';
-import Template from './Components/Template';
-import Product from './Components/Product';
 import Pricing from './Components/Pricing';
 function App() {
   return (
@@ -21,11 +18,9 @@ function App() {
             <Routes>
               <Route exact path="/" element={<Protected Component={Home}/>}></Route>
               <Route exact path="/login" element={<Login/>}></Route>
-              <Route exact path="/Product" element={<Protected Component={Product}/>}></Route>
               <Route exact path="/Pricing" element={<Protected Component={Pricing}/>}></Route>
-              <Route exact path="/Resources" element={<Protected Component={Resources}/>}></Route>
               <Route exact path="/Enterprise" element={<Protected Component={Enterprise}/>}></Route>
-              <Route exact path="/Template" element={<Protected Component={Template}/>}></Route>
+              
             </Routes>
       </div>
     </Router>

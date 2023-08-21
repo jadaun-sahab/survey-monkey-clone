@@ -28,11 +28,11 @@ export default class Navbar extends Component {
           <div className='navbar'>
                <div id="logo"><Link to="/">SurvayMonkey</Link></div>
                <div className={`navbar2 ${isActive ? 'active' : ''}`}>
-                    <li><Link to="/PRODUCT">PRODUCT</Link></li>
-                    <li><Link to="/TEMPLATE">TEMPLATE</Link></li>
+                    <li><Link to="/">PRODUCT</Link></li>
+                    <li><Link to="/">TEMPLATE</Link></li>
                     <li><Link to="/PRICING">PRICING</Link></li>
                     <li><Link to="/ENTERPRISE">ENTERPRISE</Link></li>
-                    <li><Link to="/RESOURCES">RESOURCES</Link></li>
+                    <li><Link to="/">RESOURCES</Link></li>
                </div>
                <div className={`nav3 ${isActive ? 'active' : ''}`}>
                     <li><Link to="/login">Login</Link></li>

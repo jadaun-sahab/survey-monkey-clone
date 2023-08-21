@@ -48,33 +48,142 @@
      background-color: #fff;
 }
 
+.homesection2child1 {
+     margin-top: 2em;
+     margin-bottom: 4em;
+     justify-content: center;
+     display: flex;
+}
+
+.homesection2child1 li a {
+     padding: 0 2px;
+     color: rgb(0, 140, 255);
+     font-size: 1.2rem;
+}
+
+.homesection2child2 {
+     text-align: center;
+     margin-bottom: 1em;
+}
+
+.homesection2child3 p {
+     font-size: 1.1rem;
+     text-align: center;
+}
+
+
+.homesection3 {
+     display: flex;
+     margin: 0 auto;
+     width: 80%;
+}
+
+.homesection3child {
+     margin: 20px;
+     background-color: #ffffff;
+     box-shadow: 2px 2px 5px grey, -2px -2px 5px grey;
+     text-align: center;
+}
+
+.homesection3child>div {
+     border-radius: 25% 25% 0 0;
+     background-color: #ffffff;
+     color: black;
+}
+
+.homesection3child h2 {
+
+     padding: 20px;
+}
+
+.homesection3child1 {
+     background-color: #47bb71;
+     color: white;
+}
+
+.homesection3child2 {
+     background-color: #3b489c;
+     color: white;
+}
+
+.homesection3child3 {
+     background-color: #5d0365;
+     color: #ffffff;
+}
+
+.homesection3child button {
+     padding: 10px;
+
+}
+
+.homesection3child1 button {
+     background-color: #47bb71;
+     color: white;
+}
+
+.homesection3child2 button {
+     background-color: #3b489c;
+     color: white;
+}
+
+.homesection3child3 button {
+     background-color: #5d0365;
+     color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width:950px) {
      .homesection1child1 h1 {
-          font-size: 2rem; 
+          font-size: 2rem;
      }
+
      .homesection1child1 {
           width: 100%;
           text-align: center;
+          padding-bottom: 100px;
      }
 
      .homesection1child1 p {
-         width: 90%;
+          width: 90%;
      }
 
      .homesection1child2 {
           display: none;
      }
 }
-@media (max-width:700px){
-     .buttons{
+
+@media (max-width:700px) {
+     .buttons {
           display: flex;
           flex-direction: column;
      }
+
      .homebtn1 {
           background-color: #ffbc04;
      }
-     
+
      .homebtn2 {
           margin-left: 0rem;
           margin-top: 1rem;
