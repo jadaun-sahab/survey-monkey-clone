@@ -1,0 +1,119 @@
+@media (max-width:1250px){
+     .homesection6child1 {
+          width: 50%; 
+     }
+     .homesection6child1 img{
+          width: 100%; 
+     }
+     .homesection6child2 {
+          width: 40%; 
+     }
+     .homesection8 {
+          grid-template-columns: repeat(2, 1fr);
+     }
+}
+@media (max-width:1000px) {
+     .homesection1child1 h1 {
+          font-size: 2rem;
+     }
+
+     .homesection1child1 {
+          width: 100%;
+          text-align: center;
+          padding-bottom: 100px;
+     }
+
+     .homesection1child1 p {
+          width: 90%;
+     }
+
+     .homesection1child2 {
+          display: none;
+     }
+
+     .homesection9 {
+          display: block;
+     }
+
+     .homesection9child1 {
+          display: flex;
+          justify-content: center;
+          width: 100%;
+     }
+
+     .homesection9child2 {
+          width: 100%;
+     }
+
+     .homesection9child2 h1 {
+          margin: 0em auto 1rem auto;
+     }
+}
+
+@media (max-width:950px) {
+     .homesection3child1 {
+          padding: 0;
+     }
+
+     .homesection5 {
+          display: flex;
+          margin: 4em 0;
+          flex-direction: column;
+     }
+
+     .homesection5child1 {
+          width: 80%; 
+     }
+
+     .homesection5child2 {
+          padding: 2em 0;
+          width: 100%; 
+     }
+     .homesection6 {
+          margin: 7rem 0;
+          display: flex;
+          flex-direction: column;
+     }
+     .homesection6child1 {
+          width: 80%; 
+          margin-bottom: 4em;
+     }
+     
+     .homesection6child2 {
+          width: 80%; 
+     }
+    
+}
+
+@media (max-width:768px) {
+     .homesection3 {
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+     }
+     .homesection8 {
+          grid-template-columns: repeat(1, 1fr);
+     }
+}
+
+@media (max-width:700px) {
+     .homebtn {
+          width: 80%;
+          margin: 0 auto;
+     }
+
+     .buttons {
+          display: flex;
+          flex-direction: column;
+     }
+
+     .homebtn1 {
+          background-color: #ffbc04;
+     }
+
+     .homebtn2 {
+          margin-top: 1rem;
+          border: 1px solid black;
+          background-color: #fff;
+     }
+}

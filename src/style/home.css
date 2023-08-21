@@ -16,6 +16,9 @@
 .homesection1child2 {
      width: 50%;
 }
+.homesection1child2 img{
+     width: 100%;
+}
 
 .homesection1child1 h1 {
      font-size: 2.9rem;
@@ -83,7 +86,6 @@
 .homesection3child {
      width: 315px;
      margin: 2em 16px;
-     min-height: 315px;
      background-color: #ffffff;
      box-shadow: 2px 2px 5px rgb(209, 207, 207), -2px -2px 5px rgb(208, 207, 207);
      text-align: center;
@@ -415,55 +417,3 @@ footer{
 
 
 
-@media (max-width:950px) {
-     .homesection1child1 h1 {
-          font-size: 2rem;
-     }
-
-     .homesection1child1 {
-          width: 100%;
-          text-align: center;
-          padding-bottom: 100px;
-     }
-
-     .homesection1child1 p {
-          width: 90%;
-     }
-
-     .homesection1child2 {
-          display: none;
-     }
-     .homesection9 {
-          display: block;
-     }
-     .homesection9child1 {
-          display: flex;
-          justify-content: center;
-          width: 100%;
-     }
-     
-     .homesection9child2 {
-          width: 100%;
-     }
-     .homesection9child2 h1 {
-          margin: 0em auto 1rem auto;
-     }
-}
-
-@media (max-width:700px) {
-     .buttons {
-          display: flex;
-          flex-direction: column;
-     }
-
-     .homebtn1 {
-          background-color: #ffbc04;
-     }
-
-     .homebtn2 {
-          margin-left: 0rem;
-          margin-top: 1rem;
-          border: 1px solid black;
-          background-color: #fff;
-     }
-}

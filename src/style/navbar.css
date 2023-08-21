@@ -96,7 +96,7 @@ a {
      }
 }
 
-@media (max-width:950px) {
+@media (max-width:1000px) {
      #navbar .fabars {
           color: rgb(0, 20, 46);
           font-size: 1.6rem;

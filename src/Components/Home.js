@@ -8,6 +8,7 @@ import img6 from "../images/Verizon-slate.png";
 import img7 from "../images/sephora-logo.png";
 import img8 from "../images/midnight-plug.png";
 import "../style/home.css";
+import "../style/homeresponsivness.css";
 import { Link } from "react-router-dom";
 export default function Home() {
   return (
@@ -237,37 +238,37 @@ export default function Home() {
 
       <div className="homesection8">
       <div className="homesection8child">
-          <i class="fa-regular fa-comments"></i>
+          <i className="fa-regular fa-comments"></i>
           <h1>Customer satisfaction</h1>
           <h4>Lorem ipsum dolor sit amet consectetur  elit. Distinctio voluptate vero debitis.</h4>
           <p>Learn more</p>
         </div>
         <div className="homesection8child">
-          <i class="fa-brands fa-researchgate"></i>
+          <i className="fa-brands fa-researchgate"></i>
           <h1>Employee engagement</h1>
           <h4>Lorem ipsum dolor sit amet consectetur  elit. Distinctio voluptate vero debitis.</h4>
           <p>Learn more</p>
         </div>
         <div className="homesection8child">
-          <i class="fa-solid fa-magnifying-glass"></i>
+          <i className="fa-solid fa-magnifying-glass"></i>
           <h1>Market research</h1>
           <h4>Lorem ipsum dolor sit amet consectetur  elit. Distinctio voluptate vero debitis.</h4>
           <p>Learn more</p>
         </div>
         <div className="homesection8child">
-          <i class="fa-solid fa-calendar-check"></i>
+          <i className="fa-solid fa-calendar-check"></i>
           <h1>Event planning</h1>
           <h4>Lorem ipsum dolor sit amet consectetur  elit. Distinctio voluptate vero debitis.</h4>
           <p>Learn more</p>
         </div>
         <div className="homesection8child">
-          <i class="fa-solid fa-book-open-reader"></i>
+          <i className="fa-solid fa-book-open-reader"></i>
           <h1>Education and schools</h1>
           <h4>Lorem ipsum dolor sit amet consectetur  elit. Distinctio voluptate vero debitis.</h4>
           <p>Learn more</p>
         </div>
         <div className="homesection8child">
-          <i class="fa-solid fa-heart-pulse"></i>
+          <i className="fa-solid fa-heart-pulse"></i>
           <h1>Healthcare</h1>
           <h4>Lorem ipsum dolor sit amet consectetur  elit. Distinctio voluptate vero debitis.</h4>
           <p>Learn more</p>
