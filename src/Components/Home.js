@@ -8,7 +8,7 @@ export default function Home() {
       <div className="homesection1child1">
         <h1>Get answers with surveys</h1>
         <p>Be the person with great ideas. Surveys give you actionable insights and fresh perspectives.</p>
-        <div>
+        <div className='buttons'>
           <button className="homebtn1 homebtn">Go premium</button>
           <button className="homebtn2 homebtn">Sign up free</button>
         </div>

@@ -8,12 +8,15 @@
      width: 85%;
      margin: 0 auto;
 }
-.homesection1child1{
+
+.homesection1child1 {
      width: 50%;
 }
-.homesection1child2{
+
+.homesection1child2 {
      width: 50%;
 }
+
 .homesection1child1 h1 {
      font-size: 2.9rem;
      font-weight: 600;
@@ -43,4 +46,39 @@
      margin-left: 1rem;
      border: 1px solid black;
      background-color: #fff;
+}
+
+
+@media (max-width:950px) {
+     .homesection1child1 h1 {
+          font-size: 2rem; 
+     }
+     .homesection1child1 {
+          width: 100%;
+          text-align: center;
+     }
+
+     .homesection1child1 p {
+         width: 90%;
+     }
+
+     .homesection1child2 {
+          display: none;
+     }
+}
+@media (max-width:700px){
+     .buttons{
+          display: flex;
+          flex-direction: column;
+     }
+     .homebtn1 {
+          background-color: #ffbc04;
+     }
+     
+     .homebtn2 {
+          margin-left: 0rem;
+          margin-top: 1rem;
+          border: 1px solid black;
+          background-color: #fff;
+     }
 }
