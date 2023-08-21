@@ -289,6 +289,14 @@ export default function Home() {
         </div>
       </div>
 
+
+      {/* --------------------------------------section10 starts----------------------------------------- */}
+
+      <div className="homesection10">
+        <h1>Aren't you just a little curious?</h1>
+        <button>Get started</button>
+      </div>
+
     </div>
   );
 }
