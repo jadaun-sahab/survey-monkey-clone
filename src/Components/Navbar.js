@@ -36,7 +36,7 @@ export default class Navbar extends Component {
                </div>
                <div className={`nav3 ${isActive ? 'active' : ''}`}>
                     <li><Link to="/login">Login</Link></li>
-                    <li><Link to="/">Signup</Link></li>
+                    <li><Link to="/">Signup free</Link></li>
                </div>
           </div>
           <i className="fabars" onClick={this.handleToggleClick}>{isActive ? <i className="fa-regular fa-x"></i> : <i className="fa-solid fa-bars"></i>}

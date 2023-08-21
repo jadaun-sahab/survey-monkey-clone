@@ -54,17 +54,17 @@
 .nav3 li a {
      font-size: 1.3rem;
      color: rgb(0, 0, 0);
-     
-     border: 1px solid white;
      padding: 4px 6px;
      margin: 3px 6px;
 
 }
+#navbar .nav3 li:nth-child(2){
+     background-color: #ffbc04;
+     color: white;
+}
 
 #navbar .nav3 li :hover {
-     background: linear-gradient(57deg, #001ae0, #fc00ff);
-     -webkit-text-fill-color: transparent;
-     -webkit-background-clip: text;
+    
 }
 
 li {
