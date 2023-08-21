@@ -1,6 +1,12 @@
 import React from "react";
 import img from "../images/sem-hero-man.png";
 import img2 from "../images/sem-videotest-wistia-v6.png";
+import img3 from "../images/Allbirds-slate.png";
+import img4 from "../images/Tweezerman-slate.png";
+import img5 from "../images/box-logo-grey-3x-360x121.webp";
+import img6 from "../images/Verizon-slate.png";
+import img7 from "../images/sephora-logo.png";
+import img8 from "../images/midnight-plug.png";
 import "../style/home.css";
 import { Link } from "react-router-dom";
 export default function Home() {
@@ -190,7 +196,6 @@ export default function Home() {
         </div>
         <div className="homesection6child2">
         <h1>Everything you need to create the best surveys</h1>
-          
           <div>
             <li></li>
             <li>Get access to survey templates that speak to customers, employees, or your target audience.</li>
@@ -209,6 +214,81 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+
+      {/* --------------------------------------section7 starts----------------------------------------- */}
+
+
+      <div className="homesection7">
+        <h1>95% of the Fortune 500 rely on SurveyMonkey</h1>
+        <div>
+          <img src={img3} alt="" />
+          <img src={img4} alt="" />
+          <img src={img5} alt="" />
+          <img src={img6} alt="" />
+          <img src={img7} alt="" />
+        </div>
+        <h2>Get survey templates to help you get started</h2>
+      </div>
+
+
+      {/* --------------------------------------section8 starts----------------------------------------- */}
+
+
+      <div className="homesection8">
+      <div className="homesection8child">
+          <i class="fa-regular fa-comments"></i>
+          <h1>Customer satisfaction</h1>
+          <h4>Lorem ipsum dolor sit amet consectetur  elit. Distinctio voluptate vero debitis.</h4>
+          <p>Learn more</p>
+        </div>
+        <div className="homesection8child">
+          <i class="fa-brands fa-researchgate"></i>
+          <h1>Employee engagement</h1>
+          <h4>Lorem ipsum dolor sit amet consectetur  elit. Distinctio voluptate vero debitis.</h4>
+          <p>Learn more</p>
+        </div>
+        <div className="homesection8child">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <h1>Market research</h1>
+          <h4>Lorem ipsum dolor sit amet consectetur  elit. Distinctio voluptate vero debitis.</h4>
+          <p>Learn more</p>
+        </div>
+        <div className="homesection8child">
+          <i class="fa-solid fa-calendar-check"></i>
+          <h1>Event planning</h1>
+          <h4>Lorem ipsum dolor sit amet consectetur  elit. Distinctio voluptate vero debitis.</h4>
+          <p>Learn more</p>
+        </div>
+        <div className="homesection8child">
+          <i class="fa-solid fa-book-open-reader"></i>
+          <h1>Education and schools</h1>
+          <h4>Lorem ipsum dolor sit amet consectetur  elit. Distinctio voluptate vero debitis.</h4>
+          <p>Learn more</p>
+        </div>
+        <div className="homesection8child">
+          <i class="fa-solid fa-heart-pulse"></i>
+          <h1>Healthcare</h1>
+          <h4>Lorem ipsum dolor sit amet consectetur  elit. Distinctio voluptate vero debitis.</h4>
+          <p>Learn more</p>
+        </div>
+      </div>
+
+
+      {/* --------------------------------------section9 starts----------------------------------------- */}
+
+
+      <div className="homesection9">
+        <div className="homesection9child1">
+        <img src={img8} alt="" />
+        </div>
+        <div className="homesection9child2">
+          <h1>Reach anyone, anywhere</h1>
+          <p>Connect with people via email, your website, social media, and more. With our expert, pre-written templates, you can create surveys, polls, or quizzes in minutes!</p>
+          <button>Sign up free</button>
+        </div>
+      </div>
+
     </div>
   );
 }
