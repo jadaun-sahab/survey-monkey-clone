@@ -1,5 +1,6 @@
 import React from "react";
 import img from "../images/sem-hero-man.png";
+import img2 from "../images/sem-videotest-wistia-v6.png";
 import "../style/home.css";
 import { Link } from "react-router-dom";
 export default function Home() {
@@ -60,7 +61,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* --------------------------------------section2 starts----------------------------------------- */}
+      {/* --------------------------------------section3 starts----------------------------------------- */}
 
       <div className="homesection3">
         <div className="homesection3child homesection3child1">
@@ -104,11 +105,21 @@ export default function Home() {
         </div>
       </div>
 
+
+      {/* --------------------------------------section4 starts----------------------------------------- */}
+
+
+
       <div className="homesection4">
         <h1>Need an enterprise-grade solution? </h1>
         <p> SurveyMonkey Enterprise empowers organizations to gain insights from</p>
         <p>customers, employees, and the market—securely and at scale.</p>
       </div>
+
+
+      {/* --------------------------------------section5 starts----------------------------------------- */}
+
+
 
       <div className="homesection5">
         <div className="homesection5child1">
@@ -155,6 +166,46 @@ export default function Home() {
           <div>
             Country*
             <input type="text" name="" id="" />
+          </div>
+          <div>
+            <input type="checkbox" name="" id="" />
+            <li>I wish to receive other information about Momentive like product updates, news, information, and special promotions.
+            Visit the Privacy Notice for information on how we use your information.
+            You can unsubscribe anytime using a link at the bottom of our communications.
+            By clicking 'Contact sales', I agree to use of my details to contact me about my specific request or inquiry.</li>
+          </div>
+          <div>
+            <button>Contact sales</button>
+          </div>
+        </div>
+      </div>
+
+
+            {/* --------------------------------------section6 starts----------------------------------------- */}
+
+
+      <div className="homesection6">
+        <div className="homesection6child1">
+          <img src={img2} alt="" />
+        </div>
+        <div className="homesection6child2">
+        <h1>Everything you need to create the best surveys</h1>
+          
+          <div>
+            <li></li>
+            <li>Get access to survey templates that speak to customers, employees, or your target audience.</li>
+          </div>
+          <div>
+            <li></li>
+            <li>Choose from expert-written sample questions to include in your surveys.</li>
+          </div>
+          <div>
+            <li></li>
+            <li>Score your surveys to estimate their success rates with SurveyMonkey Genius.</li>
+          </div>
+          <div>
+            <li></li>
+            <li>Explore our best practices for creating the even the most sophisticated surveys.</li>
           </div>
         </div>
       </div>

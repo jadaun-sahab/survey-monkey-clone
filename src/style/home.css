@@ -164,6 +164,7 @@
 
 .homesection5 {
      display: flex;
+     margin: 4em 0;
 }
 
 .homesection5child1 {
@@ -197,17 +198,67 @@
 }
 
 .homesection5child2 {
+     padding: 2em 0;
      width: 50%;
-     background-color: #ededed;
+     background-color: #f7f5f5;
 }
 
 .homesection5child2>div {
      display: flex;
      flex-direction: column;
+     width: 70%;
+     margin: 1em auto;
 }
 
+.homesection5child2>div input {
+     padding: 10px 5px;
+}
 
+.homesection5child2>div button {
+     padding: 10px 5px;
+     background-color: #47bb71;
+     border: none;
+     font-size: 1.2rem;
+     cursor: pointer;
+     color: #fff;
+}
 
+.homesection6 {
+     margin: 7rem 0;
+     display: flex;
+}
+
+.homesection6child1 {
+     width: 30%;
+     display: block;
+     margin: 0 auto;
+}
+
+.homesection6child2 {
+     width: 30%;
+     display: block;
+     margin: 0 auto;
+}
+
+.homesection6child2 h1 {
+     font-weight: 600;
+     margin-bottom: 2rem;
+}
+
+.homesection6child2>div {
+     display: flex;
+}
+
+.homesection6child2>div li:nth-child(1) {
+     list-style: disc;
+     margin-left: 6px;
+}
+
+.homesection6child2 li {
+     color: #484747;
+     font-size: 1.2rem;
+     padding: 10px 0;
+}
 
 
 
